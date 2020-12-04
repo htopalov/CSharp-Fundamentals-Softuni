@@ -47,7 +47,7 @@ namespace P_rates
                     if (citiesGoldCollection[currentCity] <= 0 || citiesPopulationCollection[currentCity] <= 0)
                     {
                         citiesGoldCollection.Remove(currentCity);
-                        citiesPopulationCollection.Remove(currentCity);
+                        //citiesPopulationCollection.Remove(currentCity); removed due to time limit in Softuni Judge System.
                         Console.WriteLine($"{currentCity} has been wiped off the map!");
                     }
                 }
